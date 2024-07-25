@@ -53,7 +53,7 @@ void displayStack(node*top){
         top = top->pNext;
     }
 }
-void sortStack(node** ppTop){
+void sortStack(node** ppTop){             // Max on top
     if(!*ppTop){
         printf("stack is empty!\n");
         return ;
@@ -88,5 +88,6 @@ int main()
     printf("\nAfter sorting the stack :\n");
     sortStack(&pTop1);
     displayStack(pTop1);
+    printf("\n");
     return 0;
 }
