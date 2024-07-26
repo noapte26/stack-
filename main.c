@@ -88,6 +88,5 @@ int main()
     printf("\nAfter sorting the stack :\n");
     sortStack(&pTop1);
     displayStack(pTop1);
-    printf("\n");
     return 0;
 }
